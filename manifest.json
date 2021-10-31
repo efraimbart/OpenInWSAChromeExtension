@@ -1,0 +1,15 @@
+﻿{
+  "name": "Open In WSA",
+  "description": "Right click to open links in WSA (Windows Subsystem for Android™)",
+  "icons": { 
+    "256": "WSA-icon.png"
+  },
+  "version": "1.0",
+  "manifest_version": 3,
+  "permissions": [
+    "contextMenus"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
